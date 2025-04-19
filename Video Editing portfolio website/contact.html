@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Akshara & Aparajita</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #F7EAEF;
+      color: #440D20;
+    }
+    .nav {
+      background-color: #89515D;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      padding: 0;
+    }
+    .nav a {
+      color: #F7EAEF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .nav a.active {
+      text-decoration: underline;
+    }
+
+    .contact {
+      max-width: 1000px;
+      margin: auto;
+      padding: 3rem 2rem;
+    }
+    .contact h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #592133;
+      margin-bottom: 1.5rem;
+    }
+
+    .iframe-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 600px;
+      height: 500px;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(137, 81, 93, 0.2);
+    }
+
+    .social-links {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin: 0 10px;
+      color: #440D20;
+      font-size: 1.1rem;
+      text-decoration: none;
+      border: 2px solid #89515D;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .social-links a:hover {
+      background-color: #89515D;
+      color: #fff;
+    }
+
+    footer {
+      background-color: #89515D;
+      color: #F7EAEF;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header and Navigation -->
+  <header>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="why.html">Why?</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h1>Contact Us</h1>
+
+    <!-- Google Form Embed -->
+    <div class="iframe-container">
+      <iframe src="https://forms.gle/stpi7FukXwzCeY198">Loading…</iframe>
+    </div>
+
+    <!-- Social Media Links -->
+    <div class="social-links">
+      <a href="https://instagram.com/akshara_editz" target="_blank">Follow Akshara</a>
+      <a href="https://instagram.com/aparajita_creates" target="_blank">Follow Aparajita</a>
+      <a href="mailto:contact@videoeditmagic.com">Email Us</a>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Akshara & Aparajita. Your creative editing duo.</p>
+  </footer>
+</body>
+</html>

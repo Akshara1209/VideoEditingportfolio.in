@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Portfolio - Akshara & Aparajita</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #F7EAEF;
+      color: #440D20;
+    }
+    .nav {
+      background-color: #89515D;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      padding: 0;
+    }
+    .nav a {
+      color: #F7EAEF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .nav a.active {
+      text-decoration: underline;
+    }
+
+    .portfolio-section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .portfolio-section h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      color: #592133;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background-color: #DFBCC6;
+      padding: 1rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      color: #440D20;
+    }
+    .card p {
+      font-size: 0.95rem;
+    }
+
+    footer {
+      background-color: #89515D;
+      color: #F7EAEF;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="why.html">Why?</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="portfolio-section">
+    <h1>Our Work</h1>
+    <div class="grid">
+      <div class="card">
+        <h3>🎬 YouTube Video Editing</h3>
+        <p>We help creators grow with high-retention content – scripting, transitions, branding and pacing that works.</p>
+      </div>
+      <div class="card">
+        <h3>📱 Instagram Reels</h3>
+        <p>Aesthetic, trendy, and engaging reels that increase reach and tell a story in under 60 seconds.</p>
+      </div>
+      <div class="card">
+        <h3>🎤 Podcast Snippets</h3>
+        <p>Highlighting powerful moments from longer podcasts for social media promotion and clips.</p>
+      </div>
+      <div class="card">
+        <h3>🏢 Corporate Videos</h3>
+        <p>We create professional edits for events, campaigns, and internal communication for brands and businesses.</p>
+      </div>
+      <div class="card">
+        <h3>📝 Scripting Support</h3>
+        <p>Need help shaping your content before it’s filmed? We provide creative script support and shot ideas.</p>
+      </div>
+      <div class="card">
+        <h3>📈 Analytics & Growth Tips</h3>
+        <p>Not just editing — we offer advice on content frequency, thumbnails, hooks, and engagement techniques.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Akshara & Aparajita. All rights reserved.</p>
+  </footer>
+</body>
+</html>
