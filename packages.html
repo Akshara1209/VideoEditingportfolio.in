@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Packages - Akshara & Aparajita</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #F7EAEF;
+      color: #440D20;
+    }
+    .nav {
+      background-color: #89515D;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      padding: 0;
+    }
+    .nav a {
+      color: #F7EAEF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .nav a.active {
+      text-decoration: underline;
+    }
+
+    .packages {
+      max-width: 1000px;
+      margin: auto;
+      padding: 3rem 2rem;
+    }
+    .packages h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #592133;
+      margin-bottom: 1.5rem;
+    }
+
+    .package-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .package-item {
+      background-color: #DFBCC6;
+      padding: 1.5rem;
+      border-radius: 15px;
+      width: 300px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .package-item h3 {
+      color: #440D20;
+    }
+
+    .package-item p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    footer {
+      background-color: #89515D;
+      color: #F7EAEF;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header and Navigation -->
+  <header>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="packages.html" class="active">Packages</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="why.html">Why?</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Packages Section -->
+  <section class="packages">
+    <h1>Our Packages</h1>
+    <div class="package-list">
+      <div class="package-item">
+        <h3>Basic Package</h3>
+        <p>This package includes basic video edits with smooth transitions, simple color correction, and text overlays for short-form content like social media posts and personal projects.</p>
+      </div>
+      <div class="package-item">
+        <h3>Standard Package</h3>
+        <p>For influencers and brands, this package includes more advanced edits such as color grading, audio enhancement, and dynamic transitions. Perfect for YouTube videos, promotional content, and vlogs.</p>
+      </div>
+      <div class="package-item">
+        <h3>Premium Package</h3>
+        <p>Our most comprehensive package, offering custom animations, motion graphics, detailed brand storytelling, and advanced cinematic editing. This package is tailored for high-end projects like commercials, documentaries, and professional social media branding.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Akshara & Aparajita. Your creative editing duo.</p>
+  </footer>
+</body>
+</html>
